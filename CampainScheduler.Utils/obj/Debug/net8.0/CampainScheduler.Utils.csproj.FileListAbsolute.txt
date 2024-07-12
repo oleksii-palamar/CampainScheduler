@@ -1,0 +1,17 @@
+D:\Projects\CampainScheduler\CampainScheduler.Utils\bin\Debug\net8.0\CampainScheduler.Utils.deps.json
+D:\Projects\CampainScheduler\CampainScheduler.Utils\bin\Debug\net8.0\CampainScheduler.Utils.dll
+D:\Projects\CampainScheduler\CampainScheduler.Utils\bin\Debug\net8.0\CampainScheduler.Utils.pdb
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\CampainScheduler.Utils.csproj.AssemblyReference.cache
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\CampainScheduler.Utils.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\CampainScheduler.Utils.AssemblyInfoInputs.cache
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\CampainScheduler.Utils.AssemblyInfo.cs
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\CampainScheduler.Utils.csproj.CoreCompileInputs.cache
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\CampainScheduler.Utils.dll
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\refint\CampainScheduler.Utils.dll
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\CampainScheduler.Utils.pdb
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\ref\CampainScheduler.Utils.dll
+D:\Projects\CampainScheduler\CampainScheduler.Utils\bin\Debug\net8.0\CampainScheduler.Domain.dll
+D:\Projects\CampainScheduler\CampainScheduler.Utils\bin\Debug\net8.0\CampainScheduler.Domain.pdb
+D:\Projects\CampainScheduler\CampainScheduler.Utils\obj\Debug\net8.0\CampainS.19E1D467.Up2Date
+D:\Projects\CampainScheduler\CampainScheduler.Utils\bin\Debug\net8.0\CampainScheduler.Application.dll
+D:\Projects\CampainScheduler\CampainScheduler.Utils\bin\Debug\net8.0\CampainScheduler.Application.pdb

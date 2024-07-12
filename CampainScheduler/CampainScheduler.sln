@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampainScheduler.API", "CampainScheduler.API.csproj", "{4746BAC7-4A74-400B-A40C-0BF11317D1B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampainScheduler.Domain", "..\CampainScheduler.Domain\CampainScheduler.Domain.csproj", "{F904BD2C-7BE4-40CA-9E38-B686EC130061}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampainScheduler.Application", "..\CampainScheduler.Application\CampainScheduler.Application.csproj", "{4AEEB454-FEFD-4E7F-A8C3-80769D2E3993}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampainScheduler.DAL", "..\CampainScheduler.Infrastructure\CampainScheduler.DAL.csproj", "{754219CD-9C9D-4CE3-B4D0-9AA79B5A7CC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6D1395B8-CA54-484B-84D9-F7F1BD147FFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampainScheduler.Application.UnitTests", "..\CampainScheduler.Application.UnitTests\CampainScheduler.Application.UnitTests.csproj", "{BA1400EE-EDD5-4FD1-9EBD-E2037EAAA72C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InitialData", "InitialData", "{23611E7A-DDFE-43CD-9DA0-C23C1D7354CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customers", "Customers", "{2E3314C8-1F47-4BBD-BBAA-27CB80B33FD3}"
+	ProjectSection(SolutionItems) = preProject
+		..\InitialData\customers.csv = ..\InitialData\customers.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{2A578974-9963-4CF9-9093-32D55A2C1064}"
+	ProjectSection(SolutionItems) = preProject
+		..\InitialData\Template B.html = ..\InitialData\Template B.html
+		..\InitialData\Template C.html = ..\InitialData\Template C.html
+		..\InitialData\TemplateA.html = ..\InitialData\TemplateA.html
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampainScheduler.Utils", "..\CampainScheduler.Utils\CampainScheduler.Utils.csproj", "{B0EB43A7-8D2F-41F1-9B66-81C2BC256E3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4746BAC7-4A74-400B-A40C-0BF11317D1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4746BAC7-4A74-400B-A40C-0BF11317D1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4746BAC7-4A74-400B-A40C-0BF11317D1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4746BAC7-4A74-400B-A40C-0BF11317D1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F904BD2C-7BE4-40CA-9E38-B686EC130061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F904BD2C-7BE4-40CA-9E38-B686EC130061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F904BD2C-7BE4-40CA-9E38-B686EC130061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F904BD2C-7BE4-40CA-9E38-B686EC130061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AEEB454-FEFD-4E7F-A8C3-80769D2E3993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEEB454-FEFD-4E7F-A8C3-80769D2E3993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEEB454-FEFD-4E7F-A8C3-80769D2E3993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEEB454-FEFD-4E7F-A8C3-80769D2E3993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754219CD-9C9D-4CE3-B4D0-9AA79B5A7CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754219CD-9C9D-4CE3-B4D0-9AA79B5A7CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754219CD-9C9D-4CE3-B4D0-9AA79B5A7CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754219CD-9C9D-4CE3-B4D0-9AA79B5A7CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1400EE-EDD5-4FD1-9EBD-E2037EAAA72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1400EE-EDD5-4FD1-9EBD-E2037EAAA72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1400EE-EDD5-4FD1-9EBD-E2037EAAA72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1400EE-EDD5-4FD1-9EBD-E2037EAAA72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EB43A7-8D2F-41F1-9B66-81C2BC256E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EB43A7-8D2F-41F1-9B66-81C2BC256E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EB43A7-8D2F-41F1-9B66-81C2BC256E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EB43A7-8D2F-41F1-9B66-81C2BC256E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA1400EE-EDD5-4FD1-9EBD-E2037EAAA72C} = {6D1395B8-CA54-484B-84D9-F7F1BD147FFF}
+		{2E3314C8-1F47-4BBD-BBAA-27CB80B33FD3} = {23611E7A-DDFE-43CD-9DA0-C23C1D7354CB}
+		{2A578974-9963-4CF9-9093-32D55A2C1064} = {23611E7A-DDFE-43CD-9DA0-C23C1D7354CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C657992-BD46-4622-8A52-343A21AABFA8}
+	EndGlobalSection
+EndGlobal

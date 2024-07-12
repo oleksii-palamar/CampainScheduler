@@ -1,0 +1,323 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\CampainScheduler\\CampainScheduler.Infrastructure\\CampainScheduler.DAL.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\CampainScheduler\\CampainScheduler.Application\\CampainScheduler.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\CampainScheduler\\CampainScheduler.Application\\CampainScheduler.Application.csproj",
+        "projectName": "CampainScheduler.Application",
+        "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Application\\CampainScheduler.Application.csproj",
+        "packagesPath": "C:\\Users\\oleks\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\CampainScheduler.Domain.csproj": {
+                "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\CampainScheduler.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\CampainScheduler.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\CampainScheduler.Domain.csproj",
+        "projectName": "CampainScheduler.Domain",
+        "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\CampainScheduler.Domain.csproj",
+        "packagesPath": "C:\\Users\\oleks\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\CampainScheduler\\CampainScheduler.Infrastructure\\CampainScheduler.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\CampainScheduler\\CampainScheduler.Infrastructure\\CampainScheduler.DAL.csproj",
+        "projectName": "CampainScheduler.DAL",
+        "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Infrastructure\\CampainScheduler.DAL.csproj",
+        "packagesPath": "C:\\Users\\oleks\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\CampainScheduler\\CampainScheduler.Application\\CampainScheduler.Application.csproj": {
+                "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Application\\CampainScheduler.Application.csproj"
+              },
+              "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\CampainScheduler.Domain.csproj": {
+                "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\CampainScheduler.Domain.csproj"
+              },
+              "D:\\Projects\\CampainScheduler\\CampainScheduler.Utils\\CampainScheduler.Utils.csproj": {
+                "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Utils\\CampainScheduler.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\CampainScheduler\\CampainScheduler.Utils\\CampainScheduler.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\CampainScheduler\\CampainScheduler.Utils\\CampainScheduler.Utils.csproj",
+        "projectName": "CampainScheduler.Utils",
+        "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Utils\\CampainScheduler.Utils.csproj",
+        "packagesPath": "C:\\Users\\oleks\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\CampainScheduler\\CampainScheduler.Application\\CampainScheduler.Application.csproj": {
+                "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Application\\CampainScheduler.Application.csproj"
+              },
+              "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\CampainScheduler.Domain.csproj": {
+                "projectPath": "D:\\Projects\\CampainScheduler\\CampainScheduler.Domain\\CampainScheduler.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
+            "Hangfire.InMemory": {
+              "target": "Package",
+              "version": "[0.10.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "TinyCsvParser": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

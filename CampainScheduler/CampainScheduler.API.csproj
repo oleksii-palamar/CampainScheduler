@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CampainScheduler.Application\CampainScheduler.Application.csproj" />
+    <ProjectReference Include="..\CampainScheduler.Domain\CampainScheduler.Domain.csproj" />
+    <ProjectReference Include="..\CampainScheduler.Infrastructure\CampainScheduler.DAL.csproj" />
+    <ProjectReference Include="..\CampainScheduler.Utils\CampainScheduler.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
