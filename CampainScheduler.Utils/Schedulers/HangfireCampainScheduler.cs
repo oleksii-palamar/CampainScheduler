@@ -37,7 +37,7 @@ namespace CampainScheduler.Utils.Schedulers
             RecurringJob.AddOrUpdate(
                 $"campain-{campainId}", 
                 () => _campainSender.SendCampainsByIdsAsync(new List<int> { campainId }, cancellationToken),
-                "* * * * *",//_cronConvertor.TimeSpanToCron(campain.ScheduledTimeUtc),
+                _cronConvertor.TimeSpanToCron(campain.ScheduledTimeUtc),
                 new RecurringJobOptions
                 {
                     TimeZone = TimeZoneInfo.Utc
